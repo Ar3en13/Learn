@@ -3,6 +3,14 @@
 ### What is a variable?
 Variable is the name given to a memory location to store a value of a specific type. There are various syntaxes to declare variables in Go. Let’s look at them one by one.
 
+### Naming Conventions
+- A variable name can only start with a letter or an underscore.
+- It can be followed by any number of letters, numbers or underscores after that
+- Go is case sensitive so uppercase and lowercase letters are treated differently.
+- The variable name cannot be any keyword name in Go
+- There is no limit on the length of the variable name.
+- But it is advisable to have the variable name of optimum length.
+
 ### Declaring a single variable
 
 `var name type` is the syntax to declare a single variable.
