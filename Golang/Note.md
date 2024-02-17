@@ -23,9 +23,9 @@ The Go compiler supports static linking. The entire Go project can be statically
 ### 6- Go Tooling
 Tooling deserves a special mention in Go. Go comes bundled with powerful tools that help developers write better code. Few of the commonly used tools are,
 
-. gofmt - gofmt is used to automatically format go source code. It uses tabs for indentation and blanks for alignment.
-. vet - vet analyses the go source code and reports possible suspicious code. Everything reported by vet is not a genuine problem but it has the capability to catch errors that are not reported by the compiler such as incorrect format specifiers when using Printf.
-. staticcheck - staticcheck is used to enforce styling issues in the code.
+- gofmt - gofmt is used to automatically format go source code. It uses tabs for indentation and blanks for alignment.
+- vet - vet analyses the go source code and reports possible suspicious code. Everything reported by vet is not a genuine problem but it has the capability to catch errors that are not reported by the compiler such as incorrect format specifiers when using Printf.
+- staticcheck - staticcheck is used to enforce styling issues in the code.
 
 ### 7- Garbage collection
 
