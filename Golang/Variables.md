@@ -11,6 +11,10 @@ Variable is the name given to a memory location to store a value of a specific t
 - There is no limit on the length of the variable name.
 - But it is advisable to have the variable name of optimum length.
 
+## Declaring a variable
+
+In GO variables are declared using the var keyword but there are other ways of declaring a variable too as we will see later in this tutorial. Let’s explore different ways of declaring a variable
+
 ### Declaring a single variable
 
 `var name type` is the syntax to declare a single variable.
@@ -93,7 +97,7 @@ func main() {
 it will print error `/prog.go:8:10: no new variables on left side of :=` This is because both the variables **a** and **b** have already been declared and there are no new variables in the left side of **:=** in line no. 8
 Since Go is strongly typed, variables declared as belonging to one type cannot be assigned a value of another type.
 
-### Scope of a Variable (Local and Global Variable)
+## Scope of a Variable (Local and Global Variable)
 
 A variable declaration can be done at the package level or a function level or a block level. Scope of a variable defines where that variable is accessible and also the life of the variable. Golang variables can be divided into two categories based on scope
 
