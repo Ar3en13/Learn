@@ -93,7 +93,24 @@ func main() {
 it will print error `/prog.go:8:10: no new variables on left side of :=` This is because both the variables **a** and **b** have already been declared and there are no new variables in the left side of **:=** in line no. 8
 Since Go is strongly typed, variables declared as belonging to one type cannot be assigned a value of another type.
 
+### Scope of a Variable (Local and Global Variable)
 
+A variable declaration can be done at the package level or a function level or a block level. Scope of a variable defines where that variable is accessible and also the life of the variable. Golang variables can be divided into two categories based on scope
 
+- Local Variable
+- Global Variable
 
+### Local Variable
+
+- Local variables are variables which are defined within a block or a function level
+- An example of the block is a for loop or a range loop etc.
+- These variables are only be accessed from within their block or function
+- These variables only live till the end of the block or a function in which they are declared. After that, they are Garbage Collected.
+
+### Global Variable
+
+- A variable will be global within a package if it is declared at the top of a file outside the scope of any function or block.
+- If this variable name starts with a **lowercase** letter then it can be accessed from **within** the the package which contains this variable definition.
+- If the variable name stats with a **uppercase** letter then it can be accessed from **outside** different package other than which it is declared.
+- Global variable are available throughout the lifetime of a program
 
