@@ -30,3 +30,13 @@ Tooling deserves a special mention in Go. Go comes bundled with powerful tools t
 ### 7- Garbage collection
 
 Go uses garbage collection and hence memory management is pretty much taken care automatically and the developer doesn’t need to worry about managing memory. This also helps to write concurrent programs easily.
+
+## Creating a Go Module
+
+Go modules are used to track our application’s dependencies and their versions.
+Run `go mod init learngo` inside the `~/Documents/learngo/` directory. This will create a file named go.mod. The contents of the file are provided below.
+```
+module learngo
+
+go 1.17
+```
