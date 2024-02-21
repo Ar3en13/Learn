@@ -13,7 +13,7 @@ or
 ```
 git switch -c new-branch
 ```
-2- push `new-branch` to the remote repository:
+2- Push `new-branch` to the remote repository:
 ```
 git push --set-upstream origin new-branch
 ```
@@ -32,7 +32,7 @@ or
 ```
 git branch -d old-branch
 ```
-3- delete remote Git branch:
+3- Delete remote Git branch:
 ```
 git push origin --delete old-branch
 ```
