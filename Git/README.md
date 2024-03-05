@@ -4,13 +4,13 @@
 ![alt text](img/git_01.webp "Basic Git Commands 1")
 
 - 2
-![alt text](img/git_02.png?raw=true  "Basic Git Commands 2")
+![alt text](img/git_02.png "Basic Git Commands 2")
 
 - 3
-![alt text](img/git_03.png?raw=true  "Basic Git Commands 3")
+![alt text](img/git_03.png  "Basic Git Commands 3")
 
 - 4
-![alt text](img/git_04.png?raw=true  "Basic Git Commands 4")
+![alt text](img/git_04.png  "Basic Git Commands 4")
 
 ### Push new branch to a remote Git repo
 1- Create a new, local Git branch in your repository:
