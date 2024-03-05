@@ -1,7 +1,7 @@
 # Git
 ### Basic Git Commands
 - 1
-![alt text](https://github.com/Ar3en13/Learn/blob/main/Git/img/git_01.webp?raw=true "Basic Git Commands 1")
+![alt text](img/git_01.webp "Basic Git Commands 1")
 
 - 2
 ![alt text](https://github.com/Ar3en13/Learn/blob/main/Git/img/git_02.png?raw=true  "Basic Git Commands 2")
