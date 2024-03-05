@@ -1,8 +1,16 @@
 # Git
 ### Basic Git Commands
+- 1
 ![alt text](https://github.com/Ar3en13/Learn/blob/main/Git/git_01.webp?raw=true "Basic Git Commands 1")
 
+- 2
 ![alt text](https://github.com/Ar3en13/Learn/blob/main/Git/git_02.png?raw=true  "Basic Git Commands 2")
+
+- 3
+![alt text](https://github.com/Ar3en13/Learn/blob/main/Git/git_03.png?raw=true  "Basic Git Commands 3")
+
+- 4
+![alt text](https://github.com/Ar3en13/Learn/blob/main/Git/git_04.png?raw=true  "Basic Git Commands 4")
 
 ### Push new branch to a remote Git repo
 1- Create a new, local Git branch in your repository:
